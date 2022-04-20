@@ -6,6 +6,6 @@
 
 @layer base {
     body {
-        @apply font-poppins bg-slate-100;
+        @apply font-poppins bg-gray-100 text-gray-900 selection:bg-yellow-300;
     }
 }
