@@ -9,8 +9,6 @@ export default function Home({ experienceData }) {
         <>
             <Head>
                 <title>Nikhil Gupta</title>
-                <meta name='description' content='Portfolio of Nikhil Gupta' />
-                <link rel='icon' href='/favicon.png' />
             </Head>
             <div className='flex flex-col lg:flex-row'>
                 <div className='lg:fixed'>

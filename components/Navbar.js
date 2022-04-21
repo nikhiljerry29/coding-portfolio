@@ -1,20 +1,35 @@
 const Navbar = () => {
     return (
-        <nav className='p-5 mt-1 mr-5 text-black hidden lg:block bg-gray-100/90'>
+        <nav className='p-5 mt-1 mr-5 sticky top-0 text-black hidden lg:block bg-gray-100/90'>
             <div className='flex space-x-6 justify-end'>
-                <a className='nav__link' href='#about'>
+                <a
+                    className='px-2 py-1 rounded-lg hover:text-white hover:bg-rose-500 active:bg-rose-400'
+                    href='#about'
+                >
                     About
                 </a>
-                <a className='nav__link' href='#skills'>
+                <a
+                    className='px-2 py-1 rounded-lg hover:text-white hover:bg-rose-500 active:bg-rose-400'
+                    href='#skills'
+                >
                     Skills
                 </a>
-                <a className='nav__link' href='#experience'>
+                <a
+                    className='px-2 py-1 rounded-lg hover:text-white hover:bg-rose-500 active:bg-rose-400'
+                    href='#experience'
+                >
                     Experience
                 </a>
-                <a className='nav__link' href='#projects'>
+                <a
+                    className='px-2 py-1 rounded-lg hover:text-white hover:bg-rose-500 active:bg-rose-400'
+                    href='#projects'
+                >
                     Projects
                 </a>
-                <a className='nav__link' href='#contact'>
+                <a
+                    className='px-2 py-1 rounded-lg hover:text-white hover:bg-rose-500 active:bg-rose-400'
+                    href='#contact'
+                >
                     Contact
                 </a>
             </div>

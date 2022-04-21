@@ -3,13 +3,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer base {
-    body {
-        @apply font-poppins bg-gray-100 text-gray-900 selection:bg-yellow-300;
-    }
-}
-
-.nav__link {
-    @apply px-2 py-1 rounded-lg hover:text-white hover:bg-rose-500 active:bg-rose-400;
-}

@@ -5,10 +5,11 @@ import SocialIcons from "./SocialIcons";
 
 const Sidebar = () => {
     const totalExpYears = getTotalExpYears();
+
     return (
         <aside className='max-w-lg mx-auto px-7 mb-10 lg:mx-0'>
             <div className='flex flex-col justify-center items-center text-center space-y-5 lg:items-start lg:text-left lg:h-screen'>
-                <div className='shadow-lg relative h-[380px] w-full rounded-b-[125px] lg:rounded-lg overflow-hidden'>
+                <div className='shadow-lg relative h-[350px] w-full rounded-b-[100px] lg:rounded-lg overflow-hidden'>
                     <Image
                         src='/assets/NikhilGupta.jpg'
                         layout='fill'
