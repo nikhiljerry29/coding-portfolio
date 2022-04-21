@@ -1,6 +1,5 @@
 export const getTotalExpYears = () => {
     let date1 = new Date(2020, 6, 28);
-    console.log(date1);
     let date2 = new Date();
     let year1 = date1.getFullYear();
     let year2 = date2.getFullYear();

@@ -9,3 +9,11 @@
         @apply font-poppins bg-gray-100 text-gray-900 selection:bg-yellow-300;
     }
 }
+
+.icon {
+    @apply p-2.5 rounded-full bg-white shadow transition transform duration-100 ease-out hover:shadow-md hover:scale-105 active:scale-95;
+}
+
+.nav__link {
+    @apply px-2 py-1 rounded-lg hover:text-white hover:bg-rose-500 active:bg-rose-400
+}
