@@ -26,8 +26,28 @@ export default function Home({ experienceData }) {
     );
 }
 export const getStaticProps = async () => {
-    const response = await fetch(`${process.env.API_URL}/api/experience`);
-    const experienceData = await response.json();
+    // const response = await fetch(`${process.env.API_URL}/api/experience`);
+    // const experienceData = await response.json();
+    const experienceData = [
+        {
+            title: "Senior Quality Analyst",
+            company: "L&T Infotech Ltd.",
+            startDate: "Aug 2021",
+            endDate: "Present",
+        },
+        {
+            title: "Graduate Engineer Trainee",
+            company: "L&T Infotech Ltd.",
+            startDate: "Aug 2020",
+            endDate: "July 2021",
+        },
+        {
+            title: "Intern Crop Quality Analyst",
+            company: "Intello Labs Pvt. Ltd.",
+            startDate: "July 2019",
+            endDate: "May 2019",
+        },
+    ];
     return {
         props: {
             experienceData,

@@ -15,5 +15,5 @@
 }
 
 .nav__link {
-    @apply px-2 py-1 rounded-lg hover:text-white hover:bg-rose-500 active:bg-rose-400
+    @apply px-2 py-1 rounded-lg hover:text-white hover:bg-rose-500 active:bg-rose-400;
 }
