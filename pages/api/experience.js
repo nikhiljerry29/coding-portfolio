@@ -18,6 +18,18 @@ export default function handler(_, res) {
             startDate: "July 2019",
             endDate: "May 2019",
         },
+        {
+            title: "Student Coordinator",
+            company: "Institute Counseling Services, NIT Rourkela",
+            startDate: "Apr 2020",
+            endDate: "July 2019",
+        },
+        {
+            title: "President",
+            company: "RITVIC Club of NIT Rourkela",
+            startDate: "Apr 2019",
+            endDate: "July 2018",
+        },
     ];
     res.status(200).json(experience);
 }

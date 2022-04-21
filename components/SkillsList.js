@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const SkillsList = () => {
     return (
-        <section className='mx-5 my-2' id='skills'>
+        <section className='mx-5 py-2 lg:pt-24' id='skills'>
             <h2 className='text-2xl font-bold mb-8 text-center lg:text-left'>
                 Skills
             </h2>
