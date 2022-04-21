@@ -2,7 +2,7 @@ import ExperienceItem from "./ExperienceItem";
 
 export default function ExperienceList({ experienceData }) {
     return (
-        <section id='experience' className='mx-5'>
+        <section id='experience' className='mx-5 my-2'>
             <h2 className='text-2xl font-semibold mb-5'>Work Experience</h2>
 
             {experienceData.map(
@@ -13,7 +13,6 @@ export default function ExperienceList({ experienceData }) {
                         company={company}
                         startDate={startDate}
                         endDate={endDate}
-                        index={index}
                     />
                 )
             )}

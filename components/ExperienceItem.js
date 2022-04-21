@@ -1,6 +1,6 @@
 import { HiMinus, HiChevronRight } from "react-icons/hi";
 
-const ExperienceItem = ({ title, company, startDate, endDate, index }) => {
+const ExperienceItem = ({ title, company, startDate, endDate }) => {
     return (
         <div className='py-5 px-3 border-t-4 lg:px-7'>
             <div className='flex flex-col md:flex-row justify-between items-baseline gap-3'>

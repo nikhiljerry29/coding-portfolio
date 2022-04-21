@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <nav className='p-5 mt-1 mr-5 sticky top-0  text-black hidden lg:block'>
+        <nav className='p-5 mt-1 mr-5 text-black hidden lg:block bg-gray-100/90'>
             <div className='flex space-x-6 justify-end'>
                 <a className='nav__link' href='#about'>
                     About
