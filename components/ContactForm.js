@@ -1,8 +1,9 @@
 import Image from "next/image";
+import SectionCard from "./shared/SectionCard";
 
 const ContactForm = () => {
     return (
-        <section id='contact' className='mx-5 py-2 lg:pt-24'>
+        <SectionCard sectionName='contact' showHeading={false}>
             <div className='space-y-10'>
                 <h2 className='max-w-lg text-2xl font-semibold lg:text-3xl'>
                     Let&apos;s make something amazing together.
@@ -21,7 +22,7 @@ const ContactForm = () => {
                     <Image src='/assets/hello.svg' alt='hello' layout='fill' />
                 </div>
             </div>
-        </section>
+        </SectionCard>
     );
 };
 

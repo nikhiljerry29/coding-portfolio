@@ -1,13 +1,11 @@
 import { skillsData } from "../utils/skillUtil";
 import SkillItem from "./SkillItem";
+import SectionCard from "./shared/SectionCard";
 import { AnimatePresence, motion } from "framer-motion";
 
 const SkillsList = () => {
     return (
-        <section className='mx-5 py-2 lg:pt-24' id='skills'>
-            <h2 className='text-2xl font-bold mb-8 text-center lg:text-left'>
-                Skills
-            </h2>
+        <SectionCard sectionName='skills'>
             <div className='grid grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-10 px-3 lg:px-0'>
                 <AnimatePresence>
                     {skillsData.map(({ Icon, title }, index) => (
@@ -22,7 +20,7 @@ const SkillsList = () => {
                     ))}
                 </AnimatePresence>
             </div>
-        </section>
+        </SectionCard>
     );
 };
 

@@ -1,8 +1,7 @@
+import SectionCard from "./shared/SectionCard";
 
 const Projects = () => {
-  return (
-    <div>Projects</div>
-  )
-}
+    return <SectionCard sectionName={"projects"}></SectionCard>;
+};
 
-export default Projects
+export default Projects;

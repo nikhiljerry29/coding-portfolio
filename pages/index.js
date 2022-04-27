@@ -2,6 +2,7 @@ import Head from "next/head";
 import ContactForm from "../components/ContactForm";
 import ExperienceList from "../components/ExperienceList";
 import Navbar from "../components/Navbar";
+import Projects from "../components/Projects";
 import Sidebar from "../components/Sidebar";
 import SkillsList from "../components/SkillsList";
 
@@ -20,6 +21,7 @@ export default function Home({ experienceData }) {
                     <main className='mt-14 lg:m-5 space-y-28'>
                         <SkillsList />
                         <ExperienceList experienceData={experienceData} />
+                        <Projects />
                         <ContactForm />
                     </main>
                 </div>
