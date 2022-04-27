@@ -13,27 +13,27 @@ const SocialIcons = () => {
             <SocialIconItem
                 Icon={SiFacebook}
                 title='Facebook'
-                hoverColor='lg:hover:text-blue-600'
+                hoverColor='text-blue-600'
             />
             <SocialIconItem
                 Icon={SiGithub}
                 title='Github'
-                hoverColor='lg:hover:text-gray-600'
+                hoverColor='text-gray-600'
             />
             <SocialIconItem
                 Icon={SiInstagram}
                 title='Instagram'
-                hoverColor='lg:hover:text-pink-600'
+                hoverColor='text-pink-600'
             />
             <SocialIconItem
                 Icon={SiLinkedin}
                 title='LinkedIn'
-                hoverColor='lg:hover:text-sky-600'
+                hoverColor='text-sky-600'
             />
             <SocialIconItem
                 Icon={SiGmail}
                 title='Gmail'
-                hoverColor='lg:hover:text-red-600'
+                hoverColor='text-red-600'
             />
         </div>
     );
