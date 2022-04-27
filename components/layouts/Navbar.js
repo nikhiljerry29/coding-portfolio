@@ -6,7 +6,7 @@ import {
 const Navbar = () => {
     return (
         <header className='z-50 w-full fixed bottom-0 lg:sticky lg:top-0'>
-            <nav className='p-5 lg:mr-5 text-black bg-gray-50 lg:bg-gray-100/95 '>
+            <nav className='p-5 lg:mr-5 text-black bg-gray-100/90 lg:bg-gray-100/95 '>
                 <div className='flex justify-around md:justify-evenly lg:space-x-6 lg:justify-end'>
                     <a
                         className='text-gray-800 p-2 rounded-full lg:py-1 lg:rounded-lg hover:text-white hover:bg-rose-500 active:bg-rose-400'

@@ -1,6 +1,6 @@
-import { skillsData } from "../utils/skillUtil";
+import { skillsData } from "../../utils/skillUtil";
 import SkillItem from "./SkillItem";
-import SectionCard from "./shared/SectionCard";
+import SectionCard from "../shared/SectionCard";
 import { AnimatePresence, motion } from "framer-motion";
 
 const SkillsList = () => {

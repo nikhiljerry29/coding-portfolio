@@ -1,4 +1,4 @@
-import SectionCard from "./shared/SectionCard";
+import SectionCard from "../shared/SectionCard";
 import ExperienceItem from "./ExperienceItem";
 
 const ExperienceList = ({ experienceData }) => {

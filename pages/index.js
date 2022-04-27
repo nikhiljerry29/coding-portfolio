@@ -1,10 +1,10 @@
 import Head from "next/head";
 import ContactForm from "../components/ContactForm";
-import ExperienceList from "../components/ExperienceList";
-import Navbar from "../components/Navbar";
-import Projects from "../components/Projects";
-import Sidebar from "../components/Sidebar";
-import SkillsList from "../components/SkillsList";
+import ExperienceList from "../components/experience/ExperienceList";
+import Navbar from "../components/layouts/Navbar";
+import Projects from "../components/project/Projects";
+import Sidebar from "../components/layouts/Sidebar";
+import SkillsList from "../components/skills/SkillsList";
 
 export default function Home({ experienceData }) {
     return (

@@ -1,4 +1,4 @@
-import SectionCard from "./shared/SectionCard";
+import SectionCard from "../shared/SectionCard";
 
 const Projects = () => {
     return <SectionCard sectionName={"projects"}></SectionCard>;

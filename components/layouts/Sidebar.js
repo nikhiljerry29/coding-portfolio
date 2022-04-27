@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { HiOutlineOfficeBuilding } from "react-icons/hi";
-import { getTotalExpYears } from "../utils/experienceUtil";
-import SocialIcons from "./SocialIcons";
+import { getTotalExpYears } from "../../utils/experienceUtil";
+import SocialIcons from "../socialIcons/SocialIcons";
 
 const Sidebar = () => {
     const totalExpYears = getTotalExpYears();
