@@ -7,7 +7,7 @@ export default function Document() {
                 <meta name='description' content='Portfolio of Nikhil Gupta' />
                 <link rel='icon' href='/favicon.png' />
             </Head>
-            <body className='font-poppins bg-gray-100 text-gray-900 selection:bg-yellow-300'>
+            <body className='font-poppins bg-gray-100 text-gray-900 scroll-smooth selection:bg-yellow-300'>
                 <Main />
                 <NextScript />
             </body>

@@ -12,7 +12,7 @@ export default function Home({ experienceData }) {
             <Head>
                 <title>Nikhil Gupta</title>
             </Head>
-            <div className='flex flex-col lg:flex-row'>
+            <div className='flex flex-col lg:flex-row xl:container xl:mx-auto'>
                 <div className='lg:fixed'>
                     <Sidebar />
                 </div>

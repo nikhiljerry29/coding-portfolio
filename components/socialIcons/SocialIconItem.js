@@ -1,8 +1,9 @@
-const SocialIconItem = ({ Icon, title, hoverColor }) => {
+const SocialIconItem = ({ Icon, title, hoverColor, url }) => {
     return (
         <a
-            href='#'
+            href={url}
             rel='noreferrer'
+            target={"_blank"}
             className={`p-2.5 rounded-full bg-white shadow group hover:shadow-md active:scale-95 ${hoverColor}`}
         >
             <span className='flex items-center'>
